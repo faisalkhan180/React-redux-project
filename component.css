@@ -1,0 +1,71 @@
+.nav-bar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(36, 38, 39);
+    height: 80px;
+    width: 100%;
+    color: aliceblue;
+}
+.logo{
+    width: 20%;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: aliceblue;
+}
+.product-wrapper{
+   width: 100%;
+    height: 200px;
+ display: grid;
+ grid-template-columns: 24%  24%  24% 24%;
+ 
+
+
+ 
+}
+.image{
+    width: 80px;
+    padding-top: 5px;
+    height: 100px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(198, 207, 204);
+    margin-left: 50px;
+    margin-top: 30px;
+    box-shadow:  5px 5px 15px;
+    border-radius: 10px;
+    padding: 5px;
+    
+    
+}
+.btn{
+    background-color: rgb(71, 71, 248);
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
